@@ -29,6 +29,8 @@ if ($err) {
 } else {
 	
 	$followerCount = count($response);
+	
+	print_r($response);
 		
 	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
